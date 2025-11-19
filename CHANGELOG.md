@@ -2,6 +2,23 @@
 
 <!-- version list -->
 
+## v0.1.4 (2025-11-19)
+
+### Bug Fixes
+
+- **build**: --all-extras
+  ([`8dd578a`](https://github.com/ademuk/cline-core/commit/8dd578ad641b5406344c65d366c416f6a37c084a))
+
+- **build**: Fix pyproject uv syntax
+  ([`ab1c941`](https://github.com/ademuk/cline-core/commit/ab1c941a8d3664b888af1218b332dbdc480f325d))
+
+- **build**: Move pre build to gh action
+  ([`7d5f61b`](https://github.com/ademuk/cline-core/commit/7d5f61bf8dd39cffe35c9334a77cadf9cefe1f34))
+
+- **build**: Uv pip install -e .
+  ([`83f742b`](https://github.com/ademuk/cline-core/commit/83f742b306b5239c3c96f681b6a1916dde69c50d))
+
+
 ## v0.1.3 (2025-11-19)
 
 ### Bug Fixes
