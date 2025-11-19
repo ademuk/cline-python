@@ -117,11 +117,8 @@ wheels = [
 
 [[package]]
 name = "cline-core"
-version = "0.1.0"
+version = "0.1.2"
 source = { editable = "." }
-dependencies = [
-    { name = "lock" },
-]
 
 [package.dev-dependencies]
 dev = [
@@ -134,7 +131,6 @@ dev = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "lock", specifier = ">=2018.3.25.2110" }]
 
 [package.metadata.requires-dev]
 dev = [
@@ -322,12 +318,6 @@ sdist = { url = "https://files.pythonhosted.org/packages/df/bf/f7da0350254c0ed7c
 wheels = [
     { url = "https://files.pythonhosted.org/packages/62/a1/3d680cbfd5f4b8f15abc1d571870c5fc3e594bb582bc3b64ea099db13e56/jinja2-3.1.6-py3-none-any.whl", hash = "sha256:85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67", size = 134899, upload-time = "2025-03-05T20:05:00.369Z" },
 ]
-
-[[package]]
-name = "lock"
-version = "2018.3.25.2110"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/ea/ee/4c7e9740d397abd62b48bfe82f77f57a8984da4f5ba0a3b64930b44ccd8f/lock-2018.3.25.2110.tar.gz", hash = "sha256:cc5ac770930493eed7a8cfd0cf2568a125faf112eb8aa6b6149b3e581523d0c7", size = 3049, upload-time = "2018-03-25T21:12:37.084Z" }
 
 [[package]]
 name = "markdown-it-py"

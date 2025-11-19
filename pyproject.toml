@@ -1,6 +1,6 @@
 [project]
 name = "cline-core"
-version = "0.1.3"
+version = "0.1.2"
 description = "Add your description here"
 readme = "README.md"
 authors = [
@@ -17,9 +17,6 @@ dev = [
     "pytest>=9.0.1",
     "python-semantic-release>=10.5.2",
 ]
-
-[tool.uv.hooks]
-pre_build = "python -m grpc_tools.protoc --proto_path=./src/cline_core/proto --python_out=./src/cline_core/proto --grpc_python_out=./src/cline_core/proto src/cline_core/proto/**/*.proto"
 
 [tool.semantic_release]
 version_toml = ["pyproject.toml:project.version"]
