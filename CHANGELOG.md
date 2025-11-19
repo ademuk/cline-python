@@ -2,6 +2,17 @@
 
 <!-- version list -->
 
+## v0.1.3 (2025-11-19)
+
+### Bug Fixes
+
+- **build**: Bump uv version
+  ([`ad6af62`](https://github.com/ademuk/cline-core/commit/ad6af6258d2fc87aad27dc612b68bdda97fbb41a))
+
+- **build**: Merge release and ci actions
+  ([`0612d8a`](https://github.com/ademuk/cline-core/commit/0612d8a8baea0497f5d2ff5f0959b0d1c3906456))
+
+
 ## v0.1.2 (2025-11-19)
 
 ### Bug Fixes
