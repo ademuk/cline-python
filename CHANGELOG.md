@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v0.1.8 (2025-11-20)
+
+### Bug Fixes
+
+- **build**: Fix grpc imports
+  ([`887a0ab`](https://github.com/ademuk/cline-core/commit/887a0ab981f5596ed1120de261d9687b960d6f4b))
+
+
 ## v0.1.7 (2025-11-20)
 
 ### Bug Fixes
