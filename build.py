@@ -41,8 +41,8 @@ def fix_grpc_imports():
     import glob
     import re
 
-    # Find all _pb2.py files
-    pb2_files = glob.glob("src/cline_core/proto/**/*_pb2.py", recursive=True)
+    # Find all _pb2.py and _pb2_grpc.py files
+    pb2_files = glob.glob("src/cline_core/proto/**/*_pb2*.py", recursive=True)
 
     for pb2_file in pb2_files:
         try:
@@ -54,6 +54,11 @@ def fix_grpc_imports():
             content = re.sub(
                 r'from cline import (\w+)_pb2 as',
                 r'from cline_core.proto.cline import \1_pb2 as',
+                content
+            )
+            content = re.sub(
+                r'from host import (\w+)_pb2 as',
+                r'from cline_core.proto.host import \1_pb2 as',
                 content
             )
 
