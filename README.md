@@ -61,7 +61,7 @@ Protocol buffer files are automatically generated during the build process using
 To manually regenerate these files during development:
 
 ```bash
-python build.py
+uv run build.py
 ```
 
 ## Development
@@ -79,5 +79,4 @@ uv run pytest
 ```
 
 - Automatic versioning with python-semantic-release
-- Conventional commits with commitizen
 - CI/CD with GitHub Actions
